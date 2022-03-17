@@ -1,0 +1,24 @@
+header div {
+  width: 100%;
+  height: 10%;
+  background-color: #9453a6;
+  text-align: center;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: "pattaya", cursive;
+}
+
+.accordion {
+  text-align: center;
+  color: #9453a6;
+  background-color: #8cbf3f;
+  border-radius: 5px;
+}
+h1 {
+  color: #9453a6;
+  background-color: #8cbf3f;
+  border-radius: 25px;
+}
+.container {
+  color: #9453a6;
+}

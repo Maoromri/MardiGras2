@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "roboto", cursive;
+  /* background-color:  */
+}
+#info {
+  background-color: #f2cc0f;
+  text-align: center;
+}
+
+header div {
+  width: 100%;
+  height: 10%;
+  background-color: #9453a6;
+  text-align: center;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: "pattaya", cursive;
+}
+
+header div spam {
+  font-size: 70px;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+
+  text-align: center;
+}
+
+.carousel .carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 500px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.containerush {
+  display: flex;
+  background: #000;
+}
+
+.carousel {
+  width: auto;
+  max-height: 850px;
+}
+
+.carousel-item img {
+  max-height: 850px;
+  min-width: auto;
+}
+
+.box {
+  margin: auto;
+  width: 30%;
+  height: 100vh;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 10%;
+  box-shadow: 3px 3px red, -1em 0 0.4em olive;
+
+  overflow: auto;
+  font-size: 1.5em;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.692) color bisque;
+}
+
+footer img {
+  height: 25vh;
+  width: 20vw;
+  border-radius: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+footer .row {
+  margin-left: 3%;
+}
+
+#carouselExampleControls {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  #demo {
+    display: none !important;
+  }
+
+  .carousel .carousel-item {
+    height: 100px;
+  }
+
+  .carousel-item img {
+    max-height: 100px;
+  }
+
+  #carouselExampleCaptions {
+    display: none;
+  }
+
+  #carouselExampleControls {
+    display: block;
+    height: 50vh;
+    width: 100vw;
+  }
+
+  .sponsers {
+    display: none;
+    height: 400px;
+  }
+
+  .carousel-item {
+    height: 100px !important;
+  }
+}
+
+footer {
+  background-color: #9453a6;
+}
